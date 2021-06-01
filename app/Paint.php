@@ -24,13 +24,15 @@ class Paint extends Model
 
   public static function get_list_cars(){
 
-    $list = DB::select("SELECT
-            plate_no,
-            current_color,
-            target_color,
-            status
-        FROM paint
-        ORDER BY id ASC");
+    $list = Paint::select(
+			'id',
+			'plate_no',
+      'current_color',
+      'target_color'
+		)
+    ->from('paint')
+    ->get()
+    ->toArray();
 
     return $list;
   }

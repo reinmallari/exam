@@ -100,16 +100,16 @@ function validation_checker(current, target) {
 }
 
 function get_list_cars(url) {
-    // $.ajax({
-    //     url: url + "paint/get_list_paints",
-    //     type: "GET",
-    //     dataType: "json",
-    //     success: function(data) {
-    //
-    //         console.log(data);
-    //     },
-    //     error: function(jqXHR, textStatus, errorThrown) {
-    //         alert('Error adding / update data');
-    //     }
-    // });
+    $.ajax({
+        url: url + "/paint/get_list_paints",
+        type: "GET",
+        dataType: "json",
+        success: function(data) {
+
+            console.log(data);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            alert('Error adding / update data');
+        }
+    });
 }

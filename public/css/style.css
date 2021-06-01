@@ -1,0 +1,114 @@
+body{
+  margin:20px;
+  background: #FAFAFA;
+}
+
+.wrapper_new_paint_job_container .wrapper_header_title{
+  height: 130px;
+  background: #EEEEEE;
+  text-align: center;
+  line-height: 8em;
+  color: #656565;
+}
+
+.wrapper_new_paint_job_container .wrapper_menu{
+  height: 30px;
+  background: #EA6A5B;
+  padding: 10px 0px 0px 10px;
+}
+
+.wrapper_new_paint_job_container .wrapper_menu a{
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.active{
+  color: #000000 !important;
+  text-decoration: underline !important;
+}
+
+.wrapper_new_paint_job_container .new_paint_job_title{
+  text-align: center;
+}
+
+.wrapper_new_paint_job_container .new_paint_job_list_cars{
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper_new_paint_job_container .new_paint_job_list_cars .arrow{
+  margin: 70px;
+}
+
+.wrapper_new_paint_job_container .wrapper_form .wrapper_form_details{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.wrapper_new_paint_job_container .wrapper_form .wrapper_form_details .block{
+  padding: 5px;
+  width: 100%;
+}
+
+.wrapper_new_paint_job_container .wrapper_form .wrapper_form_details select{
+  width: 165px;
+  height: 25px;
+}
+
+.wrapper_new_paint_job_container .wrapper_form .wrapper_form_details .wrapper_btn_submit button{
+  background: #EA6A5B;
+  width: 100px;
+  height: 32px;
+  color: #FAFAFA;
+  border: none;
+  cursor: pointer;
+}
+
+
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: left;
+}​
+
+
+.paint_jobs_flex_wrapper{
+   display: flex;
+}
+
+.wrapper_new_paint_job_container .processing_paint_job_container .paint_job_in_progress .paint_jobs_flex_wrapper .left_container{
+  width: 50%;
+}
+
+.wrapper_new_paint_job_container .processing_paint_job_container .paint_job_in_progress .paint_jobs_flex_wrapper .right_container{
+  width: 50%;
+  background: #EA6A5B;
+  color:#FAFAFA
+}
+
+.paint_job_details{
+  margin-top: -10px;
+  background: #EEEEEE;
+  width: 50%;
+}
+
+
+/* TABLES */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 10px;
+  background: #EEEEEE;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* END TABLES */
